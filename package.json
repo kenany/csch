@@ -1,0 +1,30 @@
+{
+  "name": "csch",
+  "version": "0.0.0",
+  "description": "Calculate the hyperbolic cosecant of a number",
+  "keywords": [
+    "math"
+  ],
+  "repository": "KenanY/csch",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "dependencies": {
+    "signum": "^1.0.0"
+  },
+  "devDependencies": {
+    "lodash.isfunction": "^3.0.0",
+    "lodash.isnan": "^3.0.0",
+    "tape": "^3.0.0"
+  }
+}
