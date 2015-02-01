@@ -1,6 +1,6 @@
 {
   "name": "csch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Calculate the hyperbolic cosecant of a number",
   "keywords": [
     "math"
