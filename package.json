@@ -23,9 +23,9 @@
     "signum": "^1.0.0"
   },
   "devDependencies": {
-    "almost-equal": "0.0.0",
+    "almost-equal": "1.1.0",
     "lodash.isfunction": "^3.0.0",
     "lodash.isnan": "^3.0.0",
-    "tape": "^3.0.0"
+    "tape": "^4.6.2"
   }
 }
