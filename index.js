@@ -1,4 +1,4 @@
-var sign = require('signum')
+var sign = require('signum');
 
 function csch(x) {
   if (x === 0) {
