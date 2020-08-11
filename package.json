@@ -33,7 +33,7 @@
     "eslint": "7.3.1",
     "lodash.isfunction": "3.0.9",
     "lodash.isnan": "3.0.2",
-    "nyc": "15.0.1",
+    "nyc": "15.1.0",
     "tape": "5.0.1"
   }
 }
