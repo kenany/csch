@@ -1,7 +1,5 @@
 # csch
 
-[![Build Status][travis-svg]][travis]
-
 Calculate the hyperbolic cosecant of a number.
 
 ## Example
@@ -28,7 +26,3 @@ var csch = require('csch');
 ### `csch(x)`
 
 Given a _Number_ `x`, returns the hyperbolic cosecant of `x` as a _Number_`.
-
-
-   [travis]: https://travis-ci.org/KenanY/csch
-   [travis-svg]: https://img.shields.io/travis/KenanY/csch.svg
