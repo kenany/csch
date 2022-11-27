@@ -1,9 +1,9 @@
-var test = require('tape');
-var isFunction = require('lodash.isfunction');
-var isNaN = require('lodash.isnan');
-var almostEqual = require('almost-equal');
+const test = require('tape');
+const isFunction = require('lodash.isfunction');
+const isNaN = require('lodash.isnan');
+const almostEqual = require('almost-equal');
 
-var csch = require('../');
+const csch = require('../');
 
 test('exports a function', function(t) {
   t.plan(1);
