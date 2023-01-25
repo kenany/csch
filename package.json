@@ -30,7 +30,7 @@
     "signum": "^1.0.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^10.0.1",
+    "@kenan/eslint-config": "^10.0.2",
     "almost-equal": "^1.1.0",
     "eslint": "^8.31.0",
     "lodash.isfunction": "^3.0.9",
