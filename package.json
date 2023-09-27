@@ -5,7 +5,7 @@
   "keywords": [
     "math"
   ],
-  "repository": "KenanY/csch",
+  "repository": "github:kenany/csch",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
@@ -17,25 +17,30 @@
     "test": "test"
   },
   "engines": {
-    "node": "14 || 16 || >=18"
+    "node": "18 || >=20"
   },
   "scripts": {
     "lint": "eslint *.js test/*.js",
     "tests-only": "tape test/index.js",
     "coverage": "nyc npm run -s tests-only",
     "pretest": "npm run -s lint",
-    "test": "npm run -s tests-only"
+    "test": "npm run -s tests-only",
+    "release": "semantic-release"
   },
   "dependencies": {
     "signum": "^1.0.0"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^10.0.2",
+    "@kenan/eslint-config": "^11.0.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "almost-equal": "^1.1.0",
-    "eslint": "^8.48.0",
+    "conventional-changelog-conventionalcommits": "^7.0.2",
+    "eslint": "^8.50.0",
     "lodash.isfunction": "^3.0.9",
     "lodash.isnan": "^3.0.2",
     "nyc": "^15.1.0",
-    "tape": "^5.6.6"
+    "semantic-release": "^22.0.5",
+    "tape": "^5.7.0"
   }
 }

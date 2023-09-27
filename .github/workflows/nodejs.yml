@@ -1,5 +1,7 @@
 name: nodejs
-on: [pull_request, push]
+on: [push, pull_request, merge_group]
+permissions:
+  contents: read
 jobs:
   build:
     runs-on: ${{ matrix.os }}
