@@ -40,7 +40,7 @@
     "lodash.isfunction": "3.0.9",
     "lodash.isnan": "3.0.2",
     "nyc": "18.0.0",
-    "semantic-release": "25.0.9",
+    "semantic-release": "26.0.1",
     "tape": "5.10.3"
   }
 }
