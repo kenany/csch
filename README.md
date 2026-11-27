@@ -4,8 +4,8 @@ Calculate the hyperbolic cosecant of a number.
 
 ## Example
 
-``` javascript
-const csch = require('csch');
+```javascript
+import { csch } from 'csch';
 
 csch(Math.PI);
 // => 0.08658953753004692
@@ -13,16 +13,16 @@ csch(Math.PI);
 
 ## Installation
 
-``` bash
+```bash
 $ npm install csch
 ```
 
 ## API
 
-``` javascript
-const csch = require('csch');
+```javascript
+import { csch } from 'csch';
 ```
 
-### `csch(x)`
+### `csch(x: number)`
 
 Given a _Number_ `x`, returns the hyperbolic cosecant of `x` as a _Number_.
